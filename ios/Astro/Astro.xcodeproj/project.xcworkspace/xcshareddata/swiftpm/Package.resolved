@@ -1,0 +1,88 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EKAstrologyCalc",
+        "repositoryURL": "https://github.com/emvakar/EKAstrologyCalc.git",
+        "state": {
+          "branch": null,
+          "revision": "8ea7cf2100b844a724626dd6bdc55ee00d8af5d3",
+          "version": "1.0.5"
+        }
+      },
+      {
+        "package": "ESDateHelper",
+        "repositoryURL": "https://github.com/ESKARIA/ESDateHelper.git",
+        "state": {
+          "branch": null,
+          "revision": "c6c6af34536f3afd3996b6a922f66e2bea0479ab",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "GRDB",
+        "repositoryURL": "https://github.com/groue/GRDB.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "7be7e1caded0f787e513d8f4311b20bcee97f262",
+          "version": "5.3.0"
+        }
+      },
+      {
+        "package": "Hue",
+        "repositoryURL": "https://github.com/zenangst/Hue",
+        "state": {
+          "branch": null,
+          "revision": "b9d920cee4ba795fefb828d130744eee1e3d2feb",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": null,
+          "revision": "e02e82c7c1b472e85e641a7624e99c855e21add1",
+          "version": "3.1.9"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "suncalc",
+        "repositoryURL": "https://github.com/THeK3nger/suncalc-swift",
+        "state": {
+          "branch": "master",
+          "revision": "4195f6bc0ac5a1800fa88d730b74545636d684cb",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftDate",
+        "repositoryURL": "https://github.com/malcommac/SwiftDate.git",
+        "state": {
+          "branch": null,
+          "revision": "6190d0cefff3013e77ed567e6b074f324e5c5bf5",
+          "version": "6.3.1"
+        }
+      },
+      {
+        "package": "SlideOverCard",
+        "repositoryURL": "https://github.com/moifort/swiftUI-slide-over-card",
+        "state": {
+          "branch": null,
+          "revision": "9fdc77c16d639d80a789daad0e036a24faf00825",
+          "version": "1.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

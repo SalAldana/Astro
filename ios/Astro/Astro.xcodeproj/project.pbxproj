@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A502021325B66C7F002B5795 /* AstroExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502021225B66C7F002B5795 /* AstroExtensions.swift */; };
+		A502021C25B66EFF002B5795 /* AstroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502021B25B66EFF002B5795 /* AstroViewModel.swift */; };
+		A502023225B67EB5002B5795 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A502023125B67EB5002B5795 /* Lottie */; };
+		A502023825B67F05002B5795 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502023725B67F05002B5795 /* LottieView.swift */; };
+		A502024125B67FB2002B5795 /* 1173-sun-burst-weather-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = A502024025B67FB2002B5795 /* 1173-sun-burst-weather-icon.json */; };
+		A502024725B680CC002B5795 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A502024625B680CC002B5795 /* SnapKit */; };
+		A505C6DC25BA849300E404AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505C6DB25BA849300E404AD /* SettingsView.swift */; };
+		A51F04D725B62C2C0055F96B /* AstroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F04D625B62C2C0055F96B /* AstroApp.swift */; };
+		A51F04D925B62C2C0055F96B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F04D825B62C2C0055F96B /* ContentView.swift */; };
+		A51F04DB25B62C2D0055F96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F04DA25B62C2D0055F96B /* Assets.xcassets */; };
+		A51F04DE25B62C2D0055F96B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F04DD25B62C2D0055F96B /* Preview Assets.xcassets */; };
+		A51F04E925B62C2D0055F96B /* AstroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F04E825B62C2D0055F96B /* AstroTests.swift */; };
+		A51F050625B639BB0055F96B /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F050525B639BB0055F96B /* ColorHelper.swift */; };
+		A51F050F25B639EF0055F96B /* Hue in Frameworks */ = {isa = PBXBuildFile; productRef = A51F050E25B639EF0055F96B /* Hue */; };
+		A553801025B80D3700A94FB2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A553800F25B80D3700A94FB2 /* MapView.swift */; };
+		A57492B225B8DB10001303E2 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = A57492B125B8DB10001303E2 /* SlideOverCard */; };
+		A574936325B8EBED001303E2 /* 36246-moon-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = A574936225B8EBED001303E2 /* 36246-moon-icon.json */; };
+		A5C6A78E25B77D4500D5BA7C /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = A5C6A78D25B77D4500D5BA7C /* SwiftDate */; };
+		A5C6A79925B78EE700D5BA7C /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = A5C6A79825B78EE700D5BA7C /* GRDB */; };
+		A5C6A79E25B78F3600D5BA7C /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C6A79D25B78F3600D5BA7C /* LocationHelper.swift */; };
+		A5C6A7A325B790B600D5BA7C /* AstroLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C6A7A225B790B600D5BA7C /* AstroLocation.swift */; };
+		A5DAFD7E25B7CF9300AC01DA /* worldcities.db in Resources */ = {isa = PBXBuildFile; fileRef = A5DAFD7D25B7CF9300AC01DA /* worldcities.db */; };
+		A5DAFD9025B7EA6A00AC01DA /* EKAstrologyCalc in Frameworks */ = {isa = PBXBuildFile; productRef = A5DAFD8F25B7EA6A00AC01DA /* EKAstrologyCalc */; };
+		A5DAFD9925B7EF2F00AC01DA /* suncalc in Frameworks */ = {isa = PBXBuildFile; productRef = A5DAFD9825B7EF2F00AC01DA /* suncalc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51F04E525B62C2D0055F96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F04CB25B62C2C0055F96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F04D225B62C2C0055F96B;
+			remoteInfo = Astro;
+		};
+		A51F04F025B62C2D0055F96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F04CB25B62C2C0055F96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F04D225B62C2C0055F96B;
+			remoteInfo = Astro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A502021225B66C7F002B5795 /* AstroExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroExtensions.swift; sourceTree = "<group>"; };
+		A502021B25B66EFF002B5795 /* AstroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewModel.swift; sourceTree = "<group>"; };
+		A502023725B67F05002B5795 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A502024025B67FB2002B5795 /* 1173-sun-burst-weather-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1173-sun-burst-weather-icon.json"; sourceTree = "<group>"; };
+		A505C6DB25BA849300E404AD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A51F04D325B62C2C0055F96B /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F04D625B62C2C0055F96B /* AstroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroApp.swift; sourceTree = "<group>"; };
+		A51F04D825B62C2C0055F96B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A51F04DA25B62C2D0055F96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51F04DD25B62C2D0055F96B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A51F04DF25B62C2D0055F96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F04E425B62C2D0055F96B /* AstroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F04E825B62C2D0055F96B /* AstroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroTests.swift; sourceTree = "<group>"; };
+		A51F04EA25B62C2D0055F96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F04EF25B62C2D0055F96B /* AstroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F050525B639BB0055F96B /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		A553800F25B80D3700A94FB2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A574936225B8EBED001303E2 /* 36246-moon-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "36246-moon-icon.json"; sourceTree = "<group>"; };
+		A5C6A79D25B78F3600D5BA7C /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		A5C6A7A225B790B600D5BA7C /* AstroLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroLocation.swift; sourceTree = "<group>"; };
+		A5DAFD7D25B7CF9300AC01DA /* worldcities.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = worldcities.db; path = ../../../../database/worldcities.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51F04D025B62C2C0055F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C6A78E25B77D4500D5BA7C /* SwiftDate in Frameworks */,
+				A5DAFD9025B7EA6A00AC01DA /* EKAstrologyCalc in Frameworks */,
+				A5C6A79925B78EE700D5BA7C /* GRDB in Frameworks */,
+				A502024725B680CC002B5795 /* SnapKit in Frameworks */,
+				A57492B225B8DB10001303E2 /* SlideOverCard in Frameworks */,
+				A51F050F25B639EF0055F96B /* Hue in Frameworks */,
+				A5DAFD9925B7EF2F00AC01DA /* suncalc in Frameworks */,
+				A502023225B67EB5002B5795 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04E125B62C2D0055F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04EC25B62C2D0055F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A502021A25B66EEE002B5795 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A502021B25B66EFF002B5795 /* AstroViewModel.swift */,
+				A5C6A7A225B790B600D5BA7C /* AstroLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A502023625B67EF9002B5795 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A502023725B67F05002B5795 /* LottieView.swift */,
+				A553800F25B80D3700A94FB2 /* MapView.swift */,
+				A505C6DB25BA849300E404AD /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A502023F25B67F92002B5795 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A5DAFD7D25B7CF9300AC01DA /* worldcities.db */,
+				A574936225B8EBED001303E2 /* 36246-moon-icon.json */,
+				A502024025B67FB2002B5795 /* 1173-sun-burst-weather-icon.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A51F04CA25B62C2C0055F96B = {
+			isa = PBXGroup;
+			children = (
+				A51F04D525B62C2C0055F96B /* Astro */,
+				A51F04E725B62C2D0055F96B /* AstroTests */,
+				A51F04D425B62C2C0055F96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51F04D425B62C2C0055F96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51F04D325B62C2C0055F96B /* Astro.app */,
+				A51F04E425B62C2D0055F96B /* AstroTests.xctest */,
+				A51F04EF25B62C2D0055F96B /* AstroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51F04D525B62C2C0055F96B /* Astro */ = {
+			isa = PBXGroup;
+			children = (
+				A502023F25B67F92002B5795 /* Assets */,
+				A502023625B67EF9002B5795 /* Views */,
+				A502021A25B66EEE002B5795 /* Models */,
+				A51F050425B639A80055F96B /* Helpers */,
+				A51F04D625B62C2C0055F96B /* AstroApp.swift */,
+				A51F04D825B62C2C0055F96B /* ContentView.swift */,
+				A51F04DA25B62C2D0055F96B /* Assets.xcassets */,
+				A51F04DF25B62C2D0055F96B /* Info.plist */,
+				A51F04DC25B62C2D0055F96B /* Preview Content */,
+			);
+			path = Astro;
+			sourceTree = "<group>";
+		};
+		A51F04DC25B62C2D0055F96B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A51F04DD25B62C2D0055F96B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A51F04E725B62C2D0055F96B /* AstroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A51F04E825B62C2D0055F96B /* AstroTests.swift */,
+				A51F04EA25B62C2D0055F96B /* Info.plist */,
+			);
+			path = AstroTests;
+			sourceTree = "<group>";
+		};
+		A51F050425B639A80055F96B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A502021225B66C7F002B5795 /* AstroExtensions.swift */,
+				A51F050525B639BB0055F96B /* ColorHelper.swift */,
+				A5C6A79D25B78F3600D5BA7C /* LocationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51F04D225B62C2C0055F96B /* Astro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F04F825B62C2D0055F96B /* Build configuration list for PBXNativeTarget "Astro" */;
+			buildPhases = (
+				A51F04CF25B62C2C0055F96B /* Sources */,
+				A51F04D025B62C2C0055F96B /* Frameworks */,
+				A51F04D125B62C2C0055F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astro;
+			packageProductDependencies = (
+				A51F050E25B639EF0055F96B /* Hue */,
+				A502023125B67EB5002B5795 /* Lottie */,
+				A502024625B680CC002B5795 /* SnapKit */,
+				A5C6A78D25B77D4500D5BA7C /* SwiftDate */,
+				A5C6A79825B78EE700D5BA7C /* GRDB */,
+				A5DAFD8F25B7EA6A00AC01DA /* EKAstrologyCalc */,
+				A5DAFD9825B7EF2F00AC01DA /* suncalc */,
+				A57492B125B8DB10001303E2 /* SlideOverCard */,
+			);
+			productName = Astro;
+			productReference = A51F04D325B62C2C0055F96B /* Astro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A51F04E325B62C2D0055F96B /* AstroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F04FB25B62C2D0055F96B /* Build configuration list for PBXNativeTarget "AstroTests" */;
+			buildPhases = (
+				A51F04E025B62C2D0055F96B /* Sources */,
+				A51F04E125B62C2D0055F96B /* Frameworks */,
+				A51F04E225B62C2D0055F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F04E625B62C2D0055F96B /* PBXTargetDependency */,
+			);
+			name = AstroTests;
+			productName = AstroTests;
+			productReference = A51F04E425B62C2D0055F96B /* AstroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51F04EE25B62C2D0055F96B /* AstroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F04FE25B62C2D0055F96B /* Build configuration list for PBXNativeTarget "AstroUITests" */;
+			buildPhases = (
+				A51F04EB25B62C2D0055F96B /* Sources */,
+				A51F04EC25B62C2D0055F96B /* Frameworks */,
+				A51F04ED25B62C2D0055F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F04F125B62C2D0055F96B /* PBXTargetDependency */,
+			);
+			name = AstroUITests;
+			productName = AstroUITests;
+			productReference = A51F04EF25B62C2D0055F96B /* AstroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51F04CB25B62C2C0055F96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A51F04D225B62C2C0055F96B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A51F04E325B62C2D0055F96B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A51F04D225B62C2C0055F96B;
+					};
+					A51F04EE25B62C2D0055F96B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A51F04D225B62C2C0055F96B;
+					};
+				};
+			};
+			buildConfigurationList = A51F04CE25B62C2C0055F96B /* Build configuration list for PBXProject "Astro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51F04CA25B62C2C0055F96B;
+			packageReferences = (
+				A51F050D25B639EF0055F96B /* XCRemoteSwiftPackageReference "Hue" */,
+				A502023025B67EB5002B5795 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A502024525B680CC002B5795 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A5C6A78C25B77D4500D5BA7C /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				A5C6A79725B78EE700D5BA7C /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				A5DAFD8E25B7EA6A00AC01DA /* XCRemoteSwiftPackageReference "EKAstrologyCalc" */,
+				A5DAFD9725B7EF2E00AC01DA /* XCRemoteSwiftPackageReference "suncalc-swift" */,
+				A57492B025B8DB10001303E2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */,
+			);
+			productRefGroup = A51F04D425B62C2C0055F96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51F04D225B62C2C0055F96B /* Astro */,
+				A51F04E325B62C2D0055F96B /* AstroTests */,
+				A51F04EE25B62C2D0055F96B /* AstroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51F04D125B62C2C0055F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F04DE25B62C2D0055F96B /* Preview Assets.xcassets in Resources */,
+				A51F04DB25B62C2D0055F96B /* Assets.xcassets in Resources */,
+				A502024125B67FB2002B5795 /* 1173-sun-burst-weather-icon.json in Resources */,
+				A5DAFD7E25B7CF9300AC01DA /* worldcities.db in Resources */,
+				A574936325B8EBED001303E2 /* 36246-moon-icon.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04E225B62C2D0055F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04ED25B62C2D0055F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51F04CF25B62C2C0055F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F04D925B62C2C0055F96B /* ContentView.swift in Sources */,
+				A502021325B66C7F002B5795 /* AstroExtensions.swift in Sources */,
+				A502021C25B66EFF002B5795 /* AstroViewModel.swift in Sources */,
+				A5C6A7A325B790B600D5BA7C /* AstroLocation.swift in Sources */,
+				A51F050625B639BB0055F96B /* ColorHelper.swift in Sources */,
+				A505C6DC25BA849300E404AD /* SettingsView.swift in Sources */,
+				A51F04D725B62C2C0055F96B /* AstroApp.swift in Sources */,
+				A5C6A79E25B78F3600D5BA7C /* LocationHelper.swift in Sources */,
+				A553801025B80D3700A94FB2 /* MapView.swift in Sources */,
+				A502023825B67F05002B5795 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04E025B62C2D0055F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F04E925B62C2D0055F96B /* AstroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F04EB25B62C2D0055F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51F04E625B62C2D0055F96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F04D225B62C2C0055F96B /* Astro */;
+			targetProxy = A51F04E525B62C2D0055F96B /* PBXContainerItemProxy */;
+		};
+		A51F04F125B62C2D0055F96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F04D225B62C2C0055F96B /* Astro */;
+			targetProxy = A51F04F025B62C2D0055F96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A51F04F625B62C2D0055F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51F04F725B62C2D0055F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51F04F925B62C2D0055F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astro/Preview Content\"";
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Astro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A51F04FA25B62C2D0055F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astro/Preview Content\"";
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Astro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A51F04FC25B62C2D0055F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				INFOPLIST_FILE = AstroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.AstroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astro.app/Astro";
+			};
+			name = Debug;
+		};
+		A51F04FD25B62C2D0055F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				INFOPLIST_FILE = AstroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.AstroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astro.app/Astro";
+			};
+			name = Release;
+		};
+		A51F04FF25B62C2D0055F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				INFOPLIST_FILE = AstroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.AstroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astro;
+			};
+			name = Debug;
+		};
+		A51F050025B62C2D0055F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 243DN6T9ZG;
+				INFOPLIST_FILE = AstroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = level3studios.net.AstroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51F04CE25B62C2C0055F96B /* Build configuration list for PBXProject "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F04F625B62C2D0055F96B /* Debug */,
+				A51F04F725B62C2D0055F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F04F825B62C2D0055F96B /* Build configuration list for PBXNativeTarget "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F04F925B62C2D0055F96B /* Debug */,
+				A51F04FA25B62C2D0055F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F04FB25B62C2D0055F96B /* Build configuration list for PBXNativeTarget "AstroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F04FC25B62C2D0055F96B /* Debug */,
+				A51F04FD25B62C2D0055F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F04FE25B62C2D0055F96B /* Build configuration list for PBXNativeTarget "AstroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F04FF25B62C2D0055F96B /* Debug */,
+				A51F050025B62C2D0055F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A502023025B67EB5002B5795 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+		A502024525B680CC002B5795 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		A51F050D25B639EF0055F96B /* XCRemoteSwiftPackageReference "Hue" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zenangst/Hue";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		A57492B025B8DB10001303E2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moifort/swiftUI-slide-over-card";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		A5C6A78C25B77D4500D5BA7C /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		A5C6A79725B78EE700D5BA7C /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+		A5DAFD8E25B7EA6A00AC01DA /* XCRemoteSwiftPackageReference "EKAstrologyCalc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emvakar/EKAstrologyCalc.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		A5DAFD9725B7EF2E00AC01DA /* XCRemoteSwiftPackageReference "suncalc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/THeK3nger/suncalc-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A502023125B67EB5002B5795 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A502023025B67EB5002B5795 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		A502024625B680CC002B5795 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A502024525B680CC002B5795 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A51F050E25B639EF0055F96B /* Hue */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A51F050D25B639EF0055F96B /* XCRemoteSwiftPackageReference "Hue" */;
+			productName = Hue;
+		};
+		A57492B125B8DB10001303E2 /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A57492B025B8DB10001303E2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */;
+			productName = SlideOverCard;
+		};
+		A5C6A78D25B77D4500D5BA7C /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C6A78C25B77D4500D5BA7C /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		A5C6A79825B78EE700D5BA7C /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C6A79725B78EE700D5BA7C /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		A5DAFD8F25B7EA6A00AC01DA /* EKAstrologyCalc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5DAFD8E25B7EA6A00AC01DA /* XCRemoteSwiftPackageReference "EKAstrologyCalc" */;
+			productName = EKAstrologyCalc;
+		};
+		A5DAFD9825B7EF2F00AC01DA /* suncalc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5DAFD9725B7EF2E00AC01DA /* XCRemoteSwiftPackageReference "suncalc-swift" */;
+			productName = suncalc;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A51F04CB25B62C2C0055F96B /* Project object */;
+}
